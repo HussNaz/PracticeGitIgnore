@@ -10,9 +10,9 @@ public class PracticeGitIgnore {
             String str = br.readLine();
             System.out.println("Enter your Project Name");
             String str2 = br.readLine();
-            System.out.println(str+" "+str2);
+            System.out.println(str + " " + str2);
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Error" + e.getMessage());
         }
     }
 }
